@@ -3,24 +3,18 @@ introduction
 working principle
 
 	single cycle
-
 	multi-cycle
-
 	pipeline
-
 	hazard detection
 	
 unit implementation
-	
 simulation
-
 comparison
-
 conclusion
-
 preferences
-
 attachment
+
+
 
 1. Introduction:
 Introduce the topic of RISC processor design and implementation.
