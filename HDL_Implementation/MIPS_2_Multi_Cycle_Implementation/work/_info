@@ -1,0 +1,58 @@
+m255
+cModel Technology
+dC:\Modeltech_5.7f\examples
+valucontrol
+I2RPnBZEic_j2O0nKEGMmU2
+VG=zTDkjXUJ?4z:cF_?Y5b2
+dC:\Users\user\Desktop\Computer organization\RISC_Processor\HDL_Implementation\MIPS_2_Multi_Cycle_Implementation
+w1707324343
+FC:/Users/user/Desktop/Computer organization/RISC_Processor/HDL_Implementation/MIPS_2_Multi_Cycle_Implementation/alucontrol.v
+L0 1
+OE;L;5.7f;17
+r1
+31
+o-work work
+vcontrol
+I?iI9BKCS6G=RHTQLXo7Yg2
+Va_nZo01O@YENEAOAkfRdI3
+dC:\Users\user\Desktop\Computer organization\RISC_Processor\HDL_Implementation\MIPS_2_Multi_Cycle_Implementation
+w1593813996
+FC:/Users/user/Desktop/Computer organization/RISC_Processor/HDL_Implementation/MIPS_2_Multi_Cycle_Implementation/control.v
+L0 1
+OE;L;5.7f;17
+r1
+31
+o-work work
+vdatapath
+IE>oLKVVzmG<KBG@@NZLi51
+VP2be1aInRFK]KKJl[7SWH3
+dC:\Users\user\Desktop\Computer organization\RISC_Processor\HDL_Implementation\MIPS_2_Multi_Cycle_Implementation
+w1593813996
+FC:/Users/user/Desktop/Computer organization/RISC_Processor/HDL_Implementation/MIPS_2_Multi_Cycle_Implementation/datapath.v
+L0 1
+OE;L;5.7f;17
+r1
+31
+o-work work
+vmips
+IPZ@XNA3TbNi@0lBhFlVIJ0
+V:QCXfneMX];`lJjeh<oD91
+dC:\Users\user\Desktop\Computer organization\RISC_Processor\HDL_Implementation\MIPS_2_Multi_Cycle_Implementation
+w1593813996
+FC:/Users/user/Desktop/Computer organization/RISC_Processor/HDL_Implementation/MIPS_2_Multi_Cycle_Implementation/mips.v
+L0 1
+OE;L;5.7f;17
+r1
+31
+o-work work
+vtb_mips
+IH^djBG@h:RFMFHcJ1EVY`2
+VSm<JK;36750P6?VzmU2CY3
+dC:\Users\user\Desktop\Computer organization\RISC_Processor\HDL_Implementation\MIPS_2_Multi_Cycle_Implementation
+w1593813996
+FC:/Users/user/Desktop/Computer organization/RISC_Processor/HDL_Implementation/MIPS_2_Multi_Cycle_Implementation/tb_mips.v
+L0 1
+OE;L;5.7f;17
+r1
+31
+o-work work

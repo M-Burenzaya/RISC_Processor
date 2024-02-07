@@ -1,0 +1,36 @@
+{C:/Users/user/Desktop/Computer organization/RISC_Processor/HDL_Implementation/MIPS_2_Multi_Cycle_Implementation/alucontrol.v} {1 {vlog -work work {C:/Users/user/Desktop/Computer organization/RISC_Processor/HDL_Implementation/MIPS_2_Multi_Cycle_Implementation/alucontrol.v}
+Model Technology ModelSim SE vlog 5.7f Compiler 2003.09 Sep 15 2003
+-- Compiling module alucontrol
+
+Top level modules:
+	alucontrol
+
+} {} {}} {C:/Users/user/Desktop/Computer organization/RISC_Processor/HDL_Implementation/MIPS_2_Multi_Cycle_Implementation/datapath.v} {1 {vlog -work work {C:/Users/user/Desktop/Computer organization/RISC_Processor/HDL_Implementation/MIPS_2_Multi_Cycle_Implementation/datapath.v}
+Model Technology ModelSim SE vlog 5.7f Compiler 2003.09 Sep 15 2003
+-- Compiling module datapath
+
+Top level modules:
+	datapath
+
+} {} {}} {C:/Users/user/Desktop/Computer organization/RISC_Processor/HDL_Implementation/MIPS_2_Multi_Cycle_Implementation/control.v} {1 {vlog -work work {C:/Users/user/Desktop/Computer organization/RISC_Processor/HDL_Implementation/MIPS_2_Multi_Cycle_Implementation/control.v}
+Model Technology ModelSim SE vlog 5.7f Compiler 2003.09 Sep 15 2003
+-- Compiling module control
+
+Top level modules:
+	control
+
+} {} {}} {C:/Users/user/Desktop/Computer organization/RISC_Processor/HDL_Implementation/MIPS_2_Multi_Cycle_Implementation/mips.v} {1 {vlog -work work {C:/Users/user/Desktop/Computer organization/RISC_Processor/HDL_Implementation/MIPS_2_Multi_Cycle_Implementation/mips.v}
+Model Technology ModelSim SE vlog 5.7f Compiler 2003.09 Sep 15 2003
+-- Compiling module mips
+
+Top level modules:
+	mips
+
+} {} {}} {C:/Users/user/Desktop/Computer organization/RISC_Processor/HDL_Implementation/MIPS_2_Multi_Cycle_Implementation/tb_mips.v} {1 {vlog -work work {C:/Users/user/Desktop/Computer organization/RISC_Processor/HDL_Implementation/MIPS_2_Multi_Cycle_Implementation/tb_mips.v}
+Model Technology ModelSim SE vlog 5.7f Compiler 2003.09 Sep 15 2003
+-- Compiling module tb_mips
+
+Top level modules:
+	tb_mips
+
+} {} {}}

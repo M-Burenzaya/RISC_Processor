@@ -1,0 +1,63 @@
+# Current time Thu Feb 08 00:49:37 2024
+# ModelSim Stack Trace
+# Program = vish
+# Id = "5.7f"
+# Version = "2003.09"
+# Date = "Sep 15 2003"
+# Platform = win32
+
+Exception c0000005 has occurred at address 0105b1ac. Traceback:
+# 0    0x0105b1ac: 'TclpAlloc + 0x9c'
+# 1    0x0105f6ae: 'Tcl_Alloc + 0xe'
+# 2    0x010956ac: 'Tcl_NewStringObj + 0x7c'
+# 3    0x0108cf8c: 'Tcl_EvalTokens + 0x1ac'
+# 4    0x0108d14e: 'Tcl_EvalEx + 0xde'
+# 5    0x0108d426: 'Tcl_Eval + 0x16'
+# 6    0x0105df0c: 'Tcl_GlobalEval + 0x1c'
+# 7    0x00f80d70: 'Tk_BindEvent + 0x99c'
+# 8    0x00fa3635: 'TkBindEventProc + 0x18f'
+# 9    0x00fad2e2: 'Tk_HandleEvent + 0x5eb'
+# 10   0x00ffd643: 'Tk_UnmapWindow + 0xcb'
+# 11   0x00fda0c7: 'Tk_PackCmd + 0x1d37'
+# 12   0x00fad2b0: 'Tk_HandleEvent + 0x5b9'
+# 13   0x00ffcff7: 'Tk_DestroyWindow + 0x204'
+# 14   0x00ffcf2a: 'Tk_DestroyWindow + 0x137'
+# 15   0x00ffcf2a: 'Tk_DestroyWindow + 0x137'
+# 16   0x00ffcf2a: 'Tk_DestroyWindow + 0x137'
+# 17   0x00ffcf2a: 'Tk_DestroyWindow + 0x137'
+# 18   0x00ffcf2a: 'Tk_DestroyWindow + 0x137'
+# 19   0x00ffe2f1: 'Tk_GetNumMainWindows + 0x70'
+# 20   0x01072f8d: 'Tcl_Finalize + 0x4d'
+# 21   0x0106060e: 'Tcl_ExitObjCmd + 0x3e'
+# 22   0x010738e4: 'TclExecuteByteCode + 0x5b4'
+# 23   0x0105cb12: 'Tcl_EvalObjEx + 0x1f2'
+# 24   0x010927ef: 'TclObjInterpProc + 0x26f'
+# 25   0x010738e4: 'TclExecuteByteCode + 0x5b4'
+# 26   0x0105cb12: 'Tcl_EvalObjEx + 0x1f2'
+# 27   0x010927ef: 'TclObjInterpProc + 0x26f'
+# 28   0x010738e4: 'TclExecuteByteCode + 0x5b4'
+# 29   0x0105cb12: 'Tcl_EvalObjEx + 0x1f2'
+# 30   0x010927ef: 'TclObjInterpProc + 0x26f'
+# 31   0x010738e4: 'TclExecuteByteCode + 0x5b4'
+# 32   0x0105cb12: 'Tcl_EvalObjEx + 0x1f2'
+# 33   0x010927ef: 'TclObjInterpProc + 0x26f'
+# 34   0x0108ccd6: 'Tcl_EvalObjv + 0x3d6'
+# 35   0x0108d18a: 'Tcl_EvalEx + 0x11a'
+# 36   0x0108d426: 'Tcl_Eval + 0x16'
+# 37   0x0105df0c: 'Tcl_GlobalEval + 0x1c'
+# 38   0x00f7ac15: 'TkWmProtocolEventProc + 0x9c'
+# 39   0x00fad1b1: 'Tk_HandleEvent + 0x4ba'
+# 40   0x00fad6d2: 'TkQueueEventForAllChildren + 0xcf'
+# 41   0x0108af20: 'Tcl_ServiceEvent + 0x60'
+# 42   0x0108b191: 'Tcl_DoOneEvent + 0x111'
+# 43   0x00fad73c: 'Tk_MainLoop + 0x14'
+# 44   0x00fcce48: 'Tk_MainEx + 0x438'
+# 45   0x0042ec44: '<unknown (@0x42ec44)>'
+# 46   0x0042f159: '<unknown (@0x42f159)>'
+# 47   0x004ccb55: '<unknown (@0x4ccb55)>'
+# 48   0x7564fcc9: '<unknown (@0x7564fcc9)>'
+# 49   0x77617c6e: '<unknown (@0x77617c6e)>'
+# 50   0x77617c3e: '<unknown (@0x77617c3e)>'
+StackWalk failed 487
+# End of Stack Trace
+
