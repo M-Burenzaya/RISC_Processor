@@ -35,7 +35,7 @@ wire [4:0] writereg;
 
 // PC 
 flopr_param #(32) PCregister(clk,reset, PC,PCNext);
-  adder #(32) pcadd4(PC, 32'd4 ,PCplus4);
+adder #(32) pcadd4(PC, 32'd4 ,PCplus4);
 slt2 shifteradd2(extendedimm,extendedimmafter);
 adder #(32) pcaddsigned(extendedimmafter,PCplus4,PCbeforeBranch);
 mux2 #(32) branchmux(PCplus4 , PCbeforeBranch, PCSrc, PCBranch);
@@ -43,7 +43,7 @@ mux2 #(32) jumpmux(PCBranch, {PCplus4[31:28],Instr[25:0],2'b00 }, Jump,PCNext);
 
 // Register File 
 
-registerfile32 RF(clk,RegWrite, reset, Instr[25:21], Instr[20:16], writereg, MUXresult, dataone,WriteData); 
+registerfile32 RF(clk,RegWrite, reset, Instr[25:21], Instr[20:16], writereg, MUXresult, dataone, WriteData); 
 mux2 #(5) writeopmux(Instr[20:16],Instr[15:11],RegDst, writereg);
 mux2 #(32) resultmux(ALUResult, ReadData, MemtoReg,MUXresult);
 
