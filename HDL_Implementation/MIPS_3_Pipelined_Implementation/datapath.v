@@ -1,6 +1,3 @@
-// file: Datapath.v
-// author: @mohamed_minawi
-
 `include "adder.v"
 `include "alu32.v"
 `include "flopr_param.v"
@@ -71,7 +68,7 @@ mux2 #(32) branchmux(PCplus4_IF , PCBranch_ID, BranchMUXselect , PCNEXT_IF);
   
 // IF_ID
 
-  IF_ID Fetch_Decode_Buffer(clk,reset | BranchMUXselect | Jump_ID ,Stall_ID,PCplus4_IF,PCplus4_ID,Instr_IF,Instr_ID);
+IF_ID Fetch_Decode_Buffer(clk,reset | BranchMUXselect | Jump_ID ,Stall_ID,PCplus4_IF,PCplus4_ID,Instr_IF,Instr_ID);
 
 // Decode Stage
 

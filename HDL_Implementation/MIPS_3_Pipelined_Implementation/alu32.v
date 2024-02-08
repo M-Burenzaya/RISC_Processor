@@ -1,5 +1,3 @@
-// file: ALU.v
-// author: @mohamed_minawi
 `timescale 1ns/1ns
 
 module alu32( input [31:0] a, 

@@ -1,6 +1,3 @@
-// file: MIPS_SCP.v
-// author: @mohamed_minawi
-
 `include "datapath.v"
 `include "ram.v"
 `include "rom.v"

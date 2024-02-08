@@ -4,12 +4,8 @@ module MIPS_SCP_tb;
 
 	//Inputs
 	reg clk;
-    reg reset;
-
-	//Outputs
-
-
-	//Instantiation of Unit Under Test
+    	reg reset;
+    	
 	MIPS_SCP uut (
 		.clk(clk),
 		.reset(reset)

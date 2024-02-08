@@ -1,4 +1,96 @@
-{C:/Users/user/Desktop/Computer organization/RISC_Processor/HDL_Implementation/MIPS_Single_Cycle_Implementation/MIPS_SCP.v} {1 {vlog -work work {C:/Users/user/Desktop/Computer organization/RISC_Processor/HDL_Implementation/MIPS_Single_Cycle_Implementation/MIPS_SCP.v}
+{C:/Users/user/Desktop/Computer organization/RISC_Processor/HDL_Implementation/MIPS_1_Single_Cycle_Implementation/adder_tb.v} {1 {vlog -work work {C:/Users/user/Desktop/Computer organization/RISC_Processor/HDL_Implementation/MIPS_1_Single_Cycle_Implementation/adder_tb.v}
+Model Technology ModelSim SE vlog 5.7f Compiler 2003.09 Sep 15 2003
+-- Compiling module adder_tb
+
+Top level modules:
+	adder_tb
+
+} {} {}} {C:/Users/user/Desktop/Computer organization/RISC_Processor/HDL_Implementation/MIPS_1_Single_Cycle_Implementation/rom.v} {1 {vlog -work work {C:/Users/user/Desktop/Computer organization/RISC_Processor/HDL_Implementation/MIPS_1_Single_Cycle_Implementation/rom.v}
+Model Technology ModelSim SE vlog 5.7f Compiler 2003.09 Sep 15 2003
+-- Compiling module rom
+
+Top level modules:
+	rom
+
+} {} {}} {C:/Users/user/Desktop/Computer organization/RISC_Processor/HDL_Implementation/MIPS_1_Single_Cycle_Implementation/sl2_tb.v} {1 {vlog -work work {C:/Users/user/Desktop/Computer organization/RISC_Processor/HDL_Implementation/MIPS_1_Single_Cycle_Implementation/sl2_tb.v}
+Model Technology ModelSim SE vlog 5.7f Compiler 2003.09 Sep 15 2003
+-- Compiling module slt2_tb
+
+Top level modules:
+	slt2_tb
+
+} {} {}} {C:/Users/user/Desktop/Computer organization/RISC_Processor/HDL_Implementation/MIPS_1_Single_Cycle_Implementation/signext_tb.v} {1 {vlog -work work {C:/Users/user/Desktop/Computer organization/RISC_Processor/HDL_Implementation/MIPS_1_Single_Cycle_Implementation/signext_tb.v}
+Model Technology ModelSim SE vlog 5.7f Compiler 2003.09 Sep 15 2003
+-- Compiling module signext_tb
+
+Top level modules:
+	signext_tb
+
+} {} {}} {C:/Users/user/Desktop/Computer organization/RISC_Processor/HDL_Implementation/MIPS_1_Single_Cycle_Implementation/regfile32_tb.v} {1 {vlog -work work {C:/Users/user/Desktop/Computer organization/RISC_Processor/HDL_Implementation/MIPS_1_Single_Cycle_Implementation/regfile32_tb.v}
+Model Technology ModelSim SE vlog 5.7f Compiler 2003.09 Sep 15 2003
+-- Compiling module registerfile32_tb
+
+Top level modules:
+	registerfile32_tb
+
+} {} {}} {C:/Users/user/Desktop/Computer organization/RISC_Processor/HDL_Implementation/MIPS_1_Single_Cycle_Implementation/ram.v} {1 {vlog -work work {C:/Users/user/Desktop/Computer organization/RISC_Processor/HDL_Implementation/MIPS_1_Single_Cycle_Implementation/ram.v}
+Model Technology ModelSim SE vlog 5.7f Compiler 2003.09 Sep 15 2003
+-- Compiling module ram
+
+Top level modules:
+	ram
+
+} {} {}} {C:/Users/user/Desktop/Computer organization/RISC_Processor/HDL_Implementation/MIPS_1_Single_Cycle_Implementation/adder.v} {1 {vlog -work work {C:/Users/user/Desktop/Computer organization/RISC_Processor/HDL_Implementation/MIPS_1_Single_Cycle_Implementation/adder.v}
+Model Technology ModelSim SE vlog 5.7f Compiler 2003.09 Sep 15 2003
+-- Compiling module adder
+-- Compiling module FA
+
+Top level modules:
+	adder
+
+} {} {}} {C:/Users/user/Desktop/Computer organization/RISC_Processor/HDL_Implementation/MIPS_1_Single_Cycle_Implementation/signext.v} {1 {vlog -work work {C:/Users/user/Desktop/Computer organization/RISC_Processor/HDL_Implementation/MIPS_1_Single_Cycle_Implementation/signext.v}
+Model Technology ModelSim SE vlog 5.7f Compiler 2003.09 Sep 15 2003
+-- Compiling module signext
+
+Top level modules:
+	signext
+
+} {} {}} {C:/Users/user/Desktop/Computer organization/RISC_Processor/HDL_Implementation/MIPS_1_Single_Cycle_Implementation/decoder4.v} {1 {vlog -work work {C:/Users/user/Desktop/Computer organization/RISC_Processor/HDL_Implementation/MIPS_1_Single_Cycle_Implementation/decoder4.v}
+Model Technology ModelSim SE vlog 5.7f Compiler 2003.09 Sep 15 2003
+-- Compiling module decoder4
+
+Top level modules:
+	decoder4
+
+} {} {}} {C:/Users/user/Desktop/Computer organization/RISC_Processor/HDL_Implementation/MIPS_1_Single_Cycle_Implementation/MIPS_SCP_tb.v} {1 {vlog -work work {C:/Users/user/Desktop/Computer organization/RISC_Processor/HDL_Implementation/MIPS_1_Single_Cycle_Implementation/MIPS_SCP_tb.v}
+Model Technology ModelSim SE vlog 5.7f Compiler 2003.09 Sep 15 2003
+-- Compiling module MIPS_SCP_tb
+
+Top level modules:
+	MIPS_SCP_tb
+
+} {} {}} {C:/Users/user/Desktop/Computer organization/RISC_Processor/HDL_Implementation/MIPS_1_Single_Cycle_Implementation/flopr_param.v} {1 {vlog -work work {C:/Users/user/Desktop/Computer organization/RISC_Processor/HDL_Implementation/MIPS_1_Single_Cycle_Implementation/flopr_param.v}
+Model Technology ModelSim SE vlog 5.7f Compiler 2003.09 Sep 15 2003
+-- Compiling module flopr_param
+
+Top level modules:
+	flopr_param
+
+} {} {}} {C:/Users/user/Desktop/Computer organization/RISC_Processor/HDL_Implementation/MIPS_1_Single_Cycle_Implementation/mux2.v} {1 {vlog -work work {C:/Users/user/Desktop/Computer organization/RISC_Processor/HDL_Implementation/MIPS_1_Single_Cycle_Implementation/mux2.v}
+Model Technology ModelSim SE vlog 5.7f Compiler 2003.09 Sep 15 2003
+-- Compiling module mux2
+
+Top level modules:
+	mux2
+
+} {} {}} {C:/Users/user/Desktop/Computer organization/RISC_Processor/HDL_Implementation/MIPS_1_Single_Cycle_Implementation/mux4.v} {1 {vlog -work work {C:/Users/user/Desktop/Computer organization/RISC_Processor/HDL_Implementation/MIPS_1_Single_Cycle_Implementation/mux4.v}
+Model Technology ModelSim SE vlog 5.7f Compiler 2003.09 Sep 15 2003
+-- Compiling module mux4
+
+Top level modules:
+	mux4
+
+} {} {}} {C:/Users/user/Desktop/Computer organization/RISC_Processor/HDL_Implementation/MIPS_1_Single_Cycle_Implementation/MIPS_SCP.v} {1 {vlog -work work {C:/Users/user/Desktop/Computer organization/RISC_Processor/HDL_Implementation/MIPS_1_Single_Cycle_Implementation/MIPS_SCP.v}
 Model Technology ModelSim SE vlog 5.7f Compiler 2003.09 Sep 15 2003
 -- Compiling module adder
 -- Compiling module FA
@@ -19,21 +111,7 @@ Top level modules:
 	mux4
 	MIPS_SCP
 
-} {} {}} {C:/Users/user/Desktop/Computer organization/RISC_Processor/HDL_Implementation/MIPS_Single_Cycle_Implementation/mux4.v} {1 {vlog -work work {C:/Users/user/Desktop/Computer organization/RISC_Processor/HDL_Implementation/MIPS_Single_Cycle_Implementation/mux4.v}
-Model Technology ModelSim SE vlog 5.7f Compiler 2003.09 Sep 15 2003
--- Compiling module mux4
-
-Top level modules:
-	mux4
-
-} {} {}} {C:/Users/user/Desktop/Computer organization/RISC_Processor/HDL_Implementation/MIPS_Single_Cycle_Implementation/alu32.v} {1 {vlog -work work {C:/Users/user/Desktop/Computer organization/RISC_Processor/HDL_Implementation/MIPS_Single_Cycle_Implementation/alu32.v}
-Model Technology ModelSim SE vlog 5.7f Compiler 2003.09 Sep 15 2003
--- Compiling module alu32
-
-Top level modules:
-	alu32
-
-} {} {}} {C:/Users/user/Desktop/Computer organization/RISC_Processor/HDL_Implementation/MIPS_Single_Cycle_Implementation/datapath.v} {1 {vlog -work work {C:/Users/user/Desktop/Computer organization/RISC_Processor/HDL_Implementation/MIPS_Single_Cycle_Implementation/datapath.v}
+} {} {}} {C:/Users/user/Desktop/Computer organization/RISC_Processor/HDL_Implementation/MIPS_1_Single_Cycle_Implementation/datapath.v} {1 {vlog -work work {C:/Users/user/Desktop/Computer organization/RISC_Processor/HDL_Implementation/MIPS_1_Single_Cycle_Implementation/datapath.v}
 Model Technology ModelSim SE vlog 5.7f Compiler 2003.09 Sep 15 2003
 -- Compiling module adder
 -- Compiling module FA
@@ -50,82 +128,32 @@ Top level modules:
 	mux4
 	Datapath
 
-} {} {}} {C:/Users/user/Desktop/Computer organization/RISC_Processor/HDL_Implementation/MIPS_Single_Cycle_Implementation/sl2.v} {1 {vlog -work work {C:/Users/user/Desktop/Computer organization/RISC_Processor/HDL_Implementation/MIPS_Single_Cycle_Implementation/sl2.v}
+} {} {}} {C:/Users/user/Desktop/Computer organization/RISC_Processor/HDL_Implementation/MIPS_1_Single_Cycle_Implementation/alu32.v} {1 {vlog -work work {C:/Users/user/Desktop/Computer organization/RISC_Processor/HDL_Implementation/MIPS_1_Single_Cycle_Implementation/alu32.v}
+Model Technology ModelSim SE vlog 5.7f Compiler 2003.09 Sep 15 2003
+-- Compiling module alu32
+
+Top level modules:
+	alu32
+
+} {} {}} {C:/Users/user/Desktop/Computer organization/RISC_Processor/HDL_Implementation/MIPS_1_Single_Cycle_Implementation/sl2.v} {1 {vlog -work work {C:/Users/user/Desktop/Computer organization/RISC_Processor/HDL_Implementation/MIPS_1_Single_Cycle_Implementation/sl2.v}
 Model Technology ModelSim SE vlog 5.7f Compiler 2003.09 Sep 15 2003
 -- Compiling module slt2
 
 Top level modules:
 	slt2
 
-} {} {}} {C:/Users/user/Desktop/Computer organization/RISC_Processor/HDL_Implementation/MIPS_Single_Cycle_Implementation/control.v} {1 {vlog -work work {C:/Users/user/Desktop/Computer organization/RISC_Processor/HDL_Implementation/MIPS_Single_Cycle_Implementation/control.v}
+} {} {}} {C:/Users/user/Desktop/Computer organization/RISC_Processor/HDL_Implementation/MIPS_1_Single_Cycle_Implementation/control.v} {1 {vlog -work work {C:/Users/user/Desktop/Computer organization/RISC_Processor/HDL_Implementation/MIPS_1_Single_Cycle_Implementation/control.v}
 Model Technology ModelSim SE vlog 5.7f Compiler 2003.09 Sep 15 2003
 -- Compiling module Controlunit
 
 Top level modules:
 	Controlunit
 
-} {} {}} {C:/Users/user/Desktop/Computer organization/RISC_Processor/HDL_Implementation/MIPS_Single_Cycle_Implementation/regfile32.v} {1 {vlog -work work {C:/Users/user/Desktop/Computer organization/RISC_Processor/HDL_Implementation/MIPS_Single_Cycle_Implementation/regfile32.v}
+} {} {}} {C:/Users/user/Desktop/Computer organization/RISC_Processor/HDL_Implementation/MIPS_1_Single_Cycle_Implementation/regfile32.v} {1 {vlog -work work {C:/Users/user/Desktop/Computer organization/RISC_Processor/HDL_Implementation/MIPS_1_Single_Cycle_Implementation/regfile32.v}
 Model Technology ModelSim SE vlog 5.7f Compiler 2003.09 Sep 15 2003
 -- Compiling module registerfile32
 
 Top level modules:
 	registerfile32
-
-} {} {}} {C:/Users/user/Desktop/Computer organization/RISC_Processor/HDL_Implementation/MIPS_Single_Cycle_Implementation/rom.v} {1 {vlog -work work {C:/Users/user/Desktop/Computer organization/RISC_Processor/HDL_Implementation/MIPS_Single_Cycle_Implementation/rom.v}
-Model Technology ModelSim SE vlog 5.7f Compiler 2003.09 Sep 15 2003
--- Compiling module rom
-
-Top level modules:
-	rom
-
-} {} {}} {C:/Users/user/Desktop/Computer organization/RISC_Processor/HDL_Implementation/MIPS_Single_Cycle_Implementation/adder.v} {1 {vlog -work work {C:/Users/user/Desktop/Computer organization/RISC_Processor/HDL_Implementation/MIPS_Single_Cycle_Implementation/adder.v}
-Model Technology ModelSim SE vlog 5.7f Compiler 2003.09 Sep 15 2003
--- Compiling module adder
--- Compiling module FA
-
-Top level modules:
-	adder
-
-} {} {}} {C:/Users/user/Desktop/Computer organization/RISC_Processor/HDL_Implementation/MIPS_Single_Cycle_Implementation/ram.v} {1 {vlog -work work {C:/Users/user/Desktop/Computer organization/RISC_Processor/HDL_Implementation/MIPS_Single_Cycle_Implementation/ram.v}
-Model Technology ModelSim SE vlog 5.7f Compiler 2003.09 Sep 15 2003
--- Compiling module ram
-
-Top level modules:
-	ram
-
-} {} {}} {C:/Users/user/Desktop/Computer organization/RISC_Processor/HDL_Implementation/MIPS_Single_Cycle_Implementation/signext.v} {1 {vlog -work work {C:/Users/user/Desktop/Computer organization/RISC_Processor/HDL_Implementation/MIPS_Single_Cycle_Implementation/signext.v}
-Model Technology ModelSim SE vlog 5.7f Compiler 2003.09 Sep 15 2003
--- Compiling module signext
-
-Top level modules:
-	signext
-
-} {} {}} {C:/Users/user/Desktop/Computer organization/RISC_Processor/HDL_Implementation/MIPS_Single_Cycle_Implementation/decoder4.v} {1 {vlog -work work {C:/Users/user/Desktop/Computer organization/RISC_Processor/HDL_Implementation/MIPS_Single_Cycle_Implementation/decoder4.v}
-Model Technology ModelSim SE vlog 5.7f Compiler 2003.09 Sep 15 2003
--- Compiling module decoder4
-
-Top level modules:
-	decoder4
-
-} {} {}} {C:/Users/user/Desktop/Computer organization/RISC_Processor/HDL_Implementation/MIPS_Single_Cycle_Implementation/MIPS_SCP_tb.v} {1 {vlog -work work {C:/Users/user/Desktop/Computer organization/RISC_Processor/HDL_Implementation/MIPS_Single_Cycle_Implementation/MIPS_SCP_tb.v}
-Model Technology ModelSim SE vlog 5.7f Compiler 2003.09 Sep 15 2003
--- Compiling module MIPS_SCP_tb
-
-Top level modules:
-	MIPS_SCP_tb
-
-} {} {}} {C:/Users/user/Desktop/Computer organization/RISC_Processor/HDL_Implementation/MIPS_Single_Cycle_Implementation/flopr_param.v} {1 {vlog -work work {C:/Users/user/Desktop/Computer organization/RISC_Processor/HDL_Implementation/MIPS_Single_Cycle_Implementation/flopr_param.v}
-Model Technology ModelSim SE vlog 5.7f Compiler 2003.09 Sep 15 2003
--- Compiling module flopr_param
-
-Top level modules:
-	flopr_param
-
-} {} {}} {C:/Users/user/Desktop/Computer organization/RISC_Processor/HDL_Implementation/MIPS_Single_Cycle_Implementation/mux2.v} {1 {vlog -work work {C:/Users/user/Desktop/Computer organization/RISC_Processor/HDL_Implementation/MIPS_Single_Cycle_Implementation/mux2.v}
-Model Technology ModelSim SE vlog 5.7f Compiler 2003.09 Sep 15 2003
--- Compiling module mux2
-
-Top level modules:
-	mux2
 
 } {} {}}

@@ -22,7 +22,7 @@ module IF_ID(input clk,
         end
 
       else begin
-		PCplus4_ID <= PCplus4_IF;
+		    PCplus4_ID <= PCplus4_IF;
         Instr_ID <= Instr_IF;
       end
 

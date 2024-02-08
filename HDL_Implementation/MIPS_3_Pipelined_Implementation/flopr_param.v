@@ -1,5 +1,3 @@
-// file: flopr_param.v
-// author: @mohamed_minawi
 `timescale 1ns/1ns
 
 module flopr_param (clk, rst, en ,q,d);

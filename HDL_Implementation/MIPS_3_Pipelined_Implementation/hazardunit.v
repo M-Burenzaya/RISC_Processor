@@ -16,7 +16,7 @@ module hazardunit(      input [4:0] Rt_EX,
 reg lwstall, branchstall;
 always @(*) begin
 
-    lwstall= ((Rs_D==Rt_EX) || (Rt_D==Rt_EX)) && MemtoReg_E;
+    lwstall= ((Rs_D == Rt_EX) || (Rt_D == Rt_EX)) && MemtoReg_E;
 
   branchstall =Branch_ID &
             (RegWrite_EX &

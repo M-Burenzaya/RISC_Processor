@@ -1,7 +1,3 @@
-// Code your design here
-// file: control.v
-// author: @mohamed_minawi
-
 `timescale 1ns/1ns
 
 module Controlunit(input [5:0] Opcode, 

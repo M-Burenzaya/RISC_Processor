@@ -125,7 +125,7 @@ PCSource, ALUSrcB, ALUSrcA, RegWrite, RegDst, PCSel, ALUCtrl, Op, Zero, Function
 		endcase
 	end
 
-	assign Zero = (ALUResult==0);//Zero == 1 when ALUResult is 0 (for branch)
+	assign Zero = (ALUResult==0);				//Zero == 1 when ALUResult is 0 (for branch)
 
 	always @(ALUCtrl or OpA or OpB) begin
 		case(ALUCtrl)

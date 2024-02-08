@@ -1,5 +1,3 @@
-// file: ram.v
-// author: @mohamed_minawi
 `timescale 1ns/1ns
 
 module ram(clk,we,adr,din,dout);
