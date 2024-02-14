@@ -27,6 +27,6 @@ module MIPS_PP_tb;
 	reset=0;
 	#100;
       end
-      $finish;
+      //$finish;
   	end
  endmodule

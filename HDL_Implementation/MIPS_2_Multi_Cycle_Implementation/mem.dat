@@ -21,6 +21,7 @@
 @48
 00000001
 @80 //starting address of instruction memory
-00004020
-00007020
+8d090040
+00005020
+116bfffe
 

@@ -15,32 +15,32 @@ module forwardingunit(  input [4:0] Rs_EX,
 
 always @(*)
     begin
-        // Forward around EX hazards
+        // EX
         if (RegWrite_M
             && (writereg_M != 0)
             && (writereg_M == Rs_EX))
             ForwardAE = 2'b10;
-        // Forward around MEM hazards
+        // MEM
         else if (RegWrite_WB
             && (writereg_WB != 0)
             && (writereg_WB == Rs_EX))
             ForwardAE = 2'b01;
-        // No hazards, use the value from ID/EX
+        // NO
         else
             ForwardAE = 2'b00;
 
         
-         // Forward around EX hazards
+         // EX
         if (RegWrite_M
             && (writereg_M != 0)
             && (writereg_M == Rt_EX))
             ForwardBE = 2'b10;
-        // Forward around MEM hazards
+        // MEM
         else if (RegWrite_WB
             && (writereg_WB != 0)
             && (writereg_WB == Rt_EX))
             ForwardBE = 2'b01;
-        // No hazards, use the value from ID/EX
+        // ID/EX
         else
             ForwardBE = 2'b00;
 

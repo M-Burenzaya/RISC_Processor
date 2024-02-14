@@ -13,7 +13,7 @@ output [width-1:0] dout;
 reg [width-1:0] Imem[depth-1:0];
     
 initial
-    $readmemh("memfile.txt", Imem);
+    $readmemh("Prog_2.txt", Imem);
     
   assign dout= Imem[adr/4]; 
 
