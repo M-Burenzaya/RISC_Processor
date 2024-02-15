@@ -13,27 +13,24 @@ module M_WB(input clk,
             input MemtoReg_M, 
             output reg MemtoReg_WB);
   
-  always@(posedge clk )
+	always@(posedge clk )
+	
     begin
-      if (rst) begin
+		if (rst) begin
+			ReadData_WB <= 0;
+			ALUResult_WB <= 0;
+			writereg_WB <= 0;
 
-		ReadData_WB <= 0;
-        ALUResult_WB <= 0;
-        writereg_WB <= 0;
+			RegWrite_WB <= 0;
+			MemtoReg_WB <= 0;
+		end
+		else begin
+			ReadData_WB <= ReadData_M;
+			ALUResult_WB <= ALUResult_M;
+			writereg_WB <= writereg_M;
 
-        RegWrite_WB <= 0;
-        MemtoReg_WB <= 0;
-      end
-      
-      else begin
-
-		ReadData_WB <= ReadData_M;
-        ALUResult_WB <= ALUResult_M;
-        writereg_WB <= writereg_M;
-
-        RegWrite_WB  <= RegWrite_M;
-        MemtoReg_WB  <= MemtoReg_M;
-
-      end
+			RegWrite_WB  <= RegWrite_M;
+			MemtoReg_WB  <= MemtoReg_M;
+		end
     end
 endmodule

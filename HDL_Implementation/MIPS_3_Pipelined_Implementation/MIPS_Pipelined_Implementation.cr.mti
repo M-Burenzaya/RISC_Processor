@@ -12,12 +12,26 @@ Model Technology ModelSim SE vlog 5.7f Compiler 2003.09 Sep 15 2003
 Top level modules:
 	hazardunit
 
+} {} {}} {C:/Users/user/Desktop/Computer organization/RISC_Processor/HDL_Implementation/MIPS_3_Pipelined_Implementation/forwardingunit.v} {1 {vlog -work work {C:/Users/user/Desktop/Computer organization/RISC_Processor/HDL_Implementation/MIPS_3_Pipelined_Implementation/forwardingunit.v}
+Model Technology ModelSim SE vlog 5.7f Compiler 2003.09 Sep 15 2003
+-- Compiling module forwardingunit
+
+Top level modules:
+	forwardingunit
+
 } {} {}} {C:/Users/user/Desktop/Computer organization/RISC_Processor/HDL_Implementation/MIPS_3_Pipelined_Implementation/flopr_param.v} {1 {vlog -work work {C:/Users/user/Desktop/Computer organization/RISC_Processor/HDL_Implementation/MIPS_3_Pipelined_Implementation/flopr_param.v}
 Model Technology ModelSim SE vlog 5.7f Compiler 2003.09 Sep 15 2003
 -- Compiling module flopr_param
 
 Top level modules:
 	flopr_param
+
+} {} {}} {C:/Users/user/Desktop/Computer organization/RISC_Processor/HDL_Implementation/MIPS_3_Pipelined_Implementation/MIPS_PP_tb.v} {1 {vlog -work work {C:/Users/user/Desktop/Computer organization/RISC_Processor/HDL_Implementation/MIPS_3_Pipelined_Implementation/MIPS_PP_tb.v}
+Model Technology ModelSim SE vlog 5.7f Compiler 2003.09 Sep 15 2003
+-- Compiling module MIPS_PP_tb
+
+Top level modules:
+	MIPS_PP_tb
 
 } {} {}} {C:/Users/user/Desktop/Computer organization/RISC_Processor/HDL_Implementation/MIPS_3_Pipelined_Implementation/alu32.v} {1 {vlog -work work {C:/Users/user/Desktop/Computer organization/RISC_Processor/HDL_Implementation/MIPS_3_Pipelined_Implementation/alu32.v}
 Model Technology ModelSim SE vlog 5.7f Compiler 2003.09 Sep 15 2003
@@ -26,19 +40,19 @@ Model Technology ModelSim SE vlog 5.7f Compiler 2003.09 Sep 15 2003
 Top level modules:
 	alu32
 
-} {} {}} {C:/Users/user/Desktop/Computer organization/RISC_Processor/HDL_Implementation/MIPS_3_Pipelined_Implementation/sl2.v} {1 {vlog -work work {C:/Users/user/Desktop/Computer organization/RISC_Processor/HDL_Implementation/MIPS_3_Pipelined_Implementation/sl2.v}
-Model Technology ModelSim SE vlog 5.7f Compiler 2003.09 Sep 15 2003
--- Compiling module slt2
-
-Top level modules:
-	slt2
-
 } {} {}} {C:/Users/user/Desktop/Computer organization/RISC_Processor/HDL_Implementation/MIPS_3_Pipelined_Implementation/control.v} {1 {vlog -work work {C:/Users/user/Desktop/Computer organization/RISC_Processor/HDL_Implementation/MIPS_3_Pipelined_Implementation/control.v}
 Model Technology ModelSim SE vlog 5.7f Compiler 2003.09 Sep 15 2003
 -- Compiling module Controlunit
 
 Top level modules:
 	Controlunit
+
+} {} {}} {C:/Users/user/Desktop/Computer organization/RISC_Processor/HDL_Implementation/MIPS_3_Pipelined_Implementation/sl2.v} {1 {vlog -work work {C:/Users/user/Desktop/Computer organization/RISC_Processor/HDL_Implementation/MIPS_3_Pipelined_Implementation/sl2.v}
+Model Technology ModelSim SE vlog 5.7f Compiler 2003.09 Sep 15 2003
+-- Compiling module slt2
+
+Top level modules:
+	slt2
 
 } {} {}} {C:/Users/user/Desktop/Computer organization/RISC_Processor/HDL_Implementation/MIPS_3_Pipelined_Implementation/ID_EX.v} {1 {vlog -work work {C:/Users/user/Desktop/Computer organization/RISC_Processor/HDL_Implementation/MIPS_3_Pipelined_Implementation/ID_EX.v}
 Model Technology ModelSim SE vlog 5.7f Compiler 2003.09 Sep 15 2003
@@ -68,19 +82,19 @@ Model Technology ModelSim SE vlog 5.7f Compiler 2003.09 Sep 15 2003
 Top level modules:
 	mux2
 
-} {} {}} {C:/Users/user/Desktop/Computer organization/RISC_Processor/HDL_Implementation/MIPS_3_Pipelined_Implementation/mux3.v} {1 {vlog -work work {C:/Users/user/Desktop/Computer organization/RISC_Processor/HDL_Implementation/MIPS_3_Pipelined_Implementation/mux3.v}
-Model Technology ModelSim SE vlog 5.7f Compiler 2003.09 Sep 15 2003
--- Compiling module mux3
-
-Top level modules:
-	mux3
-
 } {} {}} {C:/Users/user/Desktop/Computer organization/RISC_Processor/HDL_Implementation/MIPS_3_Pipelined_Implementation/M_WB.v} {1 {vlog -work work {C:/Users/user/Desktop/Computer organization/RISC_Processor/HDL_Implementation/MIPS_3_Pipelined_Implementation/M_WB.v}
 Model Technology ModelSim SE vlog 5.7f Compiler 2003.09 Sep 15 2003
 -- Compiling module M_WB
 
 Top level modules:
 	M_WB
+
+} {} {}} {C:/Users/user/Desktop/Computer organization/RISC_Processor/HDL_Implementation/MIPS_3_Pipelined_Implementation/mux3.v} {1 {vlog -work work {C:/Users/user/Desktop/Computer organization/RISC_Processor/HDL_Implementation/MIPS_3_Pipelined_Implementation/mux3.v}
+Model Technology ModelSim SE vlog 5.7f Compiler 2003.09 Sep 15 2003
+-- Compiling module mux3
+
+Top level modules:
+	mux3
 
 } {} {}} {C:/Users/user/Desktop/Computer organization/RISC_Processor/HDL_Implementation/MIPS_3_Pipelined_Implementation/rom.v} {1 {vlog -work work {C:/Users/user/Desktop/Computer organization/RISC_Processor/HDL_Implementation/MIPS_3_Pipelined_Implementation/rom.v}
 Model Technology ModelSim SE vlog 5.7f Compiler 2003.09 Sep 15 2003
@@ -118,6 +132,14 @@ Model Technology ModelSim SE vlog 5.7f Compiler 2003.09 Sep 15 2003
 Top level modules:
 	ram
 
+} {} {}} {C:/Users/user/Desktop/Computer organization/RISC_Processor/HDL_Implementation/MIPS_3_Pipelined_Implementation/adder.v} {1 {vlog -work work {C:/Users/user/Desktop/Computer organization/RISC_Processor/HDL_Implementation/MIPS_3_Pipelined_Implementation/adder.v}
+Model Technology ModelSim SE vlog 5.7f Compiler 2003.09 Sep 15 2003
+-- Compiling module adder
+-- Compiling module FA
+
+Top level modules:
+	adder
+
 } {} {}} {C:/Users/user/Desktop/Computer organization/RISC_Processor/HDL_Implementation/MIPS_3_Pipelined_Implementation/MIPS_PP.v} {1 {vlog -work work {C:/Users/user/Desktop/Computer organization/RISC_Processor/HDL_Implementation/MIPS_3_Pipelined_Implementation/MIPS_PP.v}
 Model Technology ModelSim SE vlog 5.7f Compiler 2003.09 Sep 15 2003
 -- Compiling module adder
@@ -143,14 +165,6 @@ Model Technology ModelSim SE vlog 5.7f Compiler 2003.09 Sep 15 2003
 
 Top level modules:
 	MIPS_PP
-
-} {} {}} {C:/Users/user/Desktop/Computer organization/RISC_Processor/HDL_Implementation/MIPS_3_Pipelined_Implementation/adder.v} {1 {vlog -work work {C:/Users/user/Desktop/Computer organization/RISC_Processor/HDL_Implementation/MIPS_3_Pipelined_Implementation/adder.v}
-Model Technology ModelSim SE vlog 5.7f Compiler 2003.09 Sep 15 2003
--- Compiling module adder
--- Compiling module FA
-
-Top level modules:
-	adder
 
 } {} {}} {C:/Users/user/Desktop/Computer organization/RISC_Processor/HDL_Implementation/MIPS_3_Pipelined_Implementation/EX_M.v} {1 {vlog -work work {C:/Users/user/Desktop/Computer organization/RISC_Processor/HDL_Implementation/MIPS_3_Pipelined_Implementation/EX_M.v}
 Model Technology ModelSim SE vlog 5.7f Compiler 2003.09 Sep 15 2003

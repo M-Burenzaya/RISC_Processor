@@ -2,14 +2,14 @@ m255
 cModel Technology
 dC:\Modeltech_5.7f\examples
 vadder
-ISNekllGP^IIQbSLjZ]`Km0
+IVHHAd9[1Yoah8>BlUJl@O3
 VhNiXJlYc[jb4RQDTAA5JU0
 dC:\Users\user\Desktop\Computer organization\RISC_Processor\HDL_Implementation\MIPS_1_Single_Cycle_Implementation
-w1707329922
+w1707797860
 FC:/Users/user/Desktop/Computer organization/RISC_Processor/HDL_Implementation/MIPS_1_Single_Cycle_Implementation/MIPS_SCP.v
 Fdatapath.v
 Fadder.v
-L2 3
+L2 2
 OE;L;5.7f;17
 r1
 31
@@ -38,10 +38,10 @@ r1
 31
 o-work work
 vControlunit
-ID3[i[k04L4hW^1MAz7o060
+IbAcO4P[o^FBOjTCe:Mc1Z2
 Veh@2PGc7AVWZQVchkY:j=0
 dC:\Users\user\Desktop\Computer organization\RISC_Processor\HDL_Implementation\MIPS_1_Single_Cycle_Implementation
-w1707329922
+w1707798032
 FC:/Users/user/Desktop/Computer organization/RISC_Processor/HDL_Implementation/MIPS_1_Single_Cycle_Implementation/MIPS_SCP.v
 Fcontrol.v
 L1 3
@@ -74,12 +74,12 @@ r1
 31
 o-work work
 vFA
-IXhYWO?7kfin1=a[9a3EFV3
+IA=1MHbW43Nh]Az>gYkWS>1
 V3fK7=3^zzlV6;hC9HJm4H1
 dC:\Users\user\Desktop\Computer organization\RISC_Processor\HDL_Implementation\MIPS_1_Single_Cycle_Implementation
-w1707329922
+w1707797860
 Fadder.v
-L0 20
+L0 15
 OE;L;5.7f;17
 r1
 31
@@ -210,10 +210,10 @@ r1
 31
 o-work work
 vslt2
-IPR?Hlc_d<48NoYWDJT`;B2
+IPndneJkM7BFzNhlgTkFUh2
 V:cz68I<3Wd3kEii<m7T1l0
 dC:\Users\user\Desktop\Computer organization\RISC_Processor\HDL_Implementation\MIPS_1_Single_Cycle_Implementation
-w1707329922
+w1707797167
 FC:/Users/user/Desktop/Computer organization/RISC_Processor/HDL_Implementation/MIPS_1_Single_Cycle_Implementation/sl2.v
 L0 3
 OE;L;5.7f;17

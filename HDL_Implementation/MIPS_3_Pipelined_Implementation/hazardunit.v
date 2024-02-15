@@ -13,23 +13,21 @@ module hazardunit(      input [4:0] Rt_EX,
                         output reg stall_IF_ID,
                         output reg stall_ID_EX,
                         output reg flush_EX_Mem);
-reg lwstall, branchstall;
-always @(*) begin
+						
+	reg lwstall, branchstall;
 
-    lwstall= ((Rs_D == Rt_EX) || (Rt_D == Rt_EX)) && MemtoReg_E;
+	always @(*) begin
 
-  branchstall =Branch_ID &
-            (RegWrite_EX &
-            (writereg_EX == Rs_D | writereg_EX == Rt_D) |
-             MemtoReg_M &
-            (writereg_M == Rs_D | writereg_M == Rt_D));
+		lwstall = ((Rs_D == Rt_EX) || (Rt_D == Rt_EX)) && MemtoReg_E;
 
+		branchstall = Branch_ID &
+					(RegWrite_EX &
+					(writereg_EX == Rs_D | writereg_EX == Rt_D) |
+					 MemtoReg_M &
+					(writereg_M == Rs_D | writereg_M == Rt_D));
 
-
-    stall_ID_EX = lwstall || branchstall || Jump_ID;
-    stall_IF_ID = lwstall || branchstall || Jump_ID;
-    flush_EX_Mem = lwstall || branchstall || Jump_ID;
-
+		stall_ID_EX = lwstall || branchstall || Jump_ID;
+		stall_IF_ID = lwstall || branchstall || Jump_ID;
+		flush_EX_Mem = lwstall || branchstall || Jump_ID;
     end
-
 endmodule 

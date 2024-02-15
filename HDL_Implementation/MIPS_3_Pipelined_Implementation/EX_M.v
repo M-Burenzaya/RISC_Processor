@@ -15,25 +15,25 @@ module EX_M(input clk,
             input MemWrite_Ex, 
             output reg MemWrite_M);
   
-  always@(posedge clk)
+	always@(posedge clk)
+	
     begin
-      if (rst)  begin
-        ALUResult_M <= 0;
-        WriteData_M <= 0;
-        writereg_M <= 0;
-        RegWrite_M <= 0;
-        MemtoReg_M <= 0;
-        MemWrite_M <= 0;
-        end
+		if (rst)  begin
+			ALUResult_M <= 0;
+			WriteData_M <= 0;
+			writereg_M <= 0;
+			RegWrite_M <= 0;
+			MemtoReg_M <= 0;
+			MemWrite_M <= 0;
+			end
 
-      else begin
-        ALUResult_M <= ALUResult_Ex;
-        WriteData_M <= WriteData_Ex;
-        writereg_M  <= writereg_Ex;
-        RegWrite_M  <= RegWrite_Ex;
-        MemtoReg_M  <= MemtoReg_Ex;
-        MemWrite_M  <= MemWrite_Ex;
-      end
+		else begin
+			ALUResult_M <= ALUResult_Ex;
+			WriteData_M <= WriteData_Ex;
+			writereg_M  <= writereg_Ex;
+			RegWrite_M  <= RegWrite_Ex;
+			MemtoReg_M  <= MemtoReg_Ex;
+			MemWrite_M  <= MemWrite_Ex;
+		end
     end
-  
 endmodule

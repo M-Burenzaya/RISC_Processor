@@ -1,7 +1,6 @@
 `timescale 1ns/1ns
 
-module ID_EX(input clk, 
-             input rst,
+module ID_EX(input clk, input rst,
              input[31:0] dataone_ID,
              output reg [31:0] dataone_Ex,
              input[31:0] WriteData_ID,
@@ -22,38 +21,33 @@ module ID_EX(input clk,
              output reg ALUSrc_Ex,  
              input RegDst_ID,
              output reg RegDst_Ex);
-  
-  always@(posedge clk)
+			 
+	always@(posedge clk)
+	
     begin
-      if (rst) begin
-
-        dataone_Ex <= 0;
-        WriteData_Ex <= 0;
-        extendedimm_Ex <= 0;
-        Instr_Ex <= 0;
-        RegWrite_Ex <= 0;
-        MemtoReg_Ex <= 0;
-        MemWrite_Ex <= 0;
-        ALUControl_Ex <= 0;
-        ALUSrc_Ex <= 0;
-        RegDst_Ex <= 0;
-		 
-      end
-
-    else   begin
-
-        dataone_Ex <= dataone_ID;
-        WriteData_Ex <= WriteData_ID;
-        extendedimm_Ex <= extendedimm_ID;
-        Instr_Ex <= Instr_ID;
-        RegWrite_Ex <= RegWrite_ID;
-        MemtoReg_Ex <= MemtoReg_ID;
-        MemWrite_Ex <= MemWrite_ID;
-        ALUControl_Ex <= ALUControl_ID;
-        ALUSrc_Ex <= ALUSrc_ID;
-        RegDst_Ex <= RegDst_ID;
-
-      end
+		if (rst) begin
+			dataone_Ex <= 0;
+			WriteData_Ex <= 0;
+			extendedimm_Ex <= 0;
+			Instr_Ex <= 0;
+			RegWrite_Ex <= 0;
+			MemtoReg_Ex <= 0;
+			MemWrite_Ex <= 0;
+			ALUControl_Ex <= 0;
+			ALUSrc_Ex <= 0;
+			RegDst_Ex <= 0;
+		  end
+		else begin
+			dataone_Ex <= dataone_ID;
+			WriteData_Ex <= WriteData_ID;
+			extendedimm_Ex <= extendedimm_ID;
+			Instr_Ex <= Instr_ID;
+			RegWrite_Ex <= RegWrite_ID;
+			MemtoReg_Ex <= MemtoReg_ID;
+			MemWrite_Ex <= MemWrite_ID;
+			ALUControl_Ex <= ALUControl_ID;
+			ALUSrc_Ex <= ALUSrc_ID;
+			RegDst_Ex <= RegDst_ID;
+		end
     end
-  
 endmodule

@@ -19,11 +19,10 @@ always @ (*) begin
         4'b0110: y = b >> shamt;                        // SRL
         4'b0111: y = $signed($signed(b) >>> shamt);     // SRA
         4'b1000: y = $signed(a) < $signed(b) ? 1 : 0;   // SLT
-        4'b1001: y = a < b ? 1 : 0;                     // SLTU
         4'b1010: y = ~ (a | b);                         // NOR
-        4'b1011: y = b << a;                            // SLLV
-        4'b1100: y = b >> a;                            // SRLV
-        4'b1101: y = $signed($signed(b) >>> a);         // SRAV
+        4'b1011: y = b << a;                            // SLL
+        4'b1100: y = b >> a;                            // SRL
+        4'b1101: y = $signed($signed(b) >>> a);         // SRA
         4'b1110: y = {b[15:0], 16'b0};                  // LUI
     endcase
          zero = (y==8'b0);
